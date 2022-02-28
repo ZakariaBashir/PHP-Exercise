@@ -1,8 +1,8 @@
-<?php // step1.php
+<?php // #basics-01_step1.php 
 echo "Hello world, Help me I am using PHP";
 echo "\n";
 ?>
-<?php // step2.php
+<?php // #basics-01_step2.php
 echo "I am getting errors but I can't see the errors";
 echo "\n";
 ?>
@@ -10,7 +10,7 @@ echo "\n";
 print "Search on how to enable PHP Errors";
 echo "\n";
 ?>
-<?php // step3.php
+<?php // #basics-01_step3.php
 $name= "Ziko";
 $email= "zakaria.bashir98@gmail.com";
 $height= 183;
@@ -21,7 +21,7 @@ echo "\n";
 echo "My area value is " .$area;
 echo "\n";
 ?>
-<?php // step4.php
+<?php // #basics-01_step4.php
 $name= "Ziko";
 $position= "Full-snack developer";
 $github_url= "https://github.com/ZakariaBashir";
@@ -34,7 +34,7 @@ echo $myString;
 echo "\n";
 ?>
 
-<?php // Step5.php
+<?php // #basics-01_Step5.php
 $course_name= "PHP";
 $enrolled_students= 37;
 $price= 30;
@@ -52,13 +52,13 @@ if($on_discount == TRUE){
 echo "\n";
 ?>
 
-<?php // Step6.php
+<?php // #basics-01_Step6.php
 function calculateArea($height, $width){
         echo "Area is ".$heaght * $width;}
         echo calculateArea(5, 3);
 ?>
 
-<?php // Step7.php
+<?php // #basics-01_Step7.php
 $birth_year= 3000;
 $current_year= 2022;
 if($current_year - $birth_year >18){
@@ -67,7 +67,7 @@ if($current_year - $birth_year >18){
 echo "\n";
 ?>
 
-<?php // Step8_a.php
+<?php // #basics-01_Step8_a.php
 $Array= array("Eggs", "Milk", "Cheese", "Water Pack", "Tissues", "Watermelon");
 echo "Hello Sir, do you have " .$Array[0]. ", " .$Array[1]. " and " .$Array[2]. "? Also if you sell fruits can I find a " .$Array[5]. "?";
 echo "\n";
@@ -81,7 +81,7 @@ echo "Hey Sir, Please I need 1 pack of " .$myArray[0][0]. " " .$Array[0]. " and 
 echo "\n";
 ?>
 
-<?php // Step9.php
+<?php // #basics-01_Step9.php
 $name= "Zackaria";
 $nickName="Zack";
 
